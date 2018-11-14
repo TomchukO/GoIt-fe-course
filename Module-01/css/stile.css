@@ -1,0 +1,55 @@
+body{
+    padding: 5px;
+    }
+
+.header{
+    display: block;  
+    padding-left: 200px;
+    }
+
+.life1, .life2, .life3, .life4{
+    display: inline-block;
+    width: 200px;
+    font-family:PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(98, 98, 98, 255);
+    text-transform: uppercase;
+    }
+
+main{
+    margin-top: 60px;
+    }
+
+.festival, .coffee, .dream, .Alps, .Top, .Cold{
+    display: inline-block;
+    width: 460px;
+    }
+
+.festival, .dream, .Top{
+    margin-left: 120px;
+    }
+
+.coffee, .Alps, .Cold{
+    margin-left: 100px;
+    }
+
+.designation{
+    text-transform: uppercase;
+    font-family: Ubuntu-Light, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 12pt;
+    }
+
+.title{
+    font-family: PlayfairDisplay-Regular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 25pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+.player-button, .conteiner{
+    width: 165px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 255px;
+   
+    }
