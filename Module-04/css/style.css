@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Roboto-Light, Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    src: url(../Fond/Roboto-Black.ttf)
+}
+body{
+    border: 1px solid black;
+}
+.header{
+    width: 1125px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+        }
+ 
+.Mart{
+    font-family: Roboto-Light, Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 30pt;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+      }
+.Menu{
+    font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.m{
+    color: green;
+    font-weight: bold;
+}
+main{
+    width: 1125px;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+}
+.shop{
+    display: flex;
+    width: 255px;
+    height: 322px;
+}
+img{
+    width: 255px;
+    height: 282px;
+}
+.naime{
+    width: 201px;
+}
