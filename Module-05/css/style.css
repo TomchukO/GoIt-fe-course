@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i|Roboto:400,400i,900,900i&amp;subset=cyrillic" rel="stylesheet"); 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,700i');
 *{
     margin: 0;
     padding: 0;
@@ -45,7 +46,6 @@
     z-index: -100;
 }
 .left-but{
-    /* background-color: #1abc9c; */
     width: 104px;
     height: 104px;
     background-image: url("../img/left.png"), linear-gradient( #1abc9c, #1abc9c);
@@ -58,8 +58,7 @@
 }
 .paris-d{
     display: block;
-    padding: 219px 85px 284px 80px;
-    /* width: ; */
+    padding: 219px 85px 284px 0px;
    }
 .right-but{
     /* background-color: #1abc9c; */
@@ -83,16 +82,15 @@
     font-family: roboto light;
     font-size: 34px;
 }
-.main{
-    width: 1125px;
-    background-color: #e9f0fd;
+.products{
+    background-color:#e9f0fd;
     margin: 0 auto;
 }
 .products-title{
     text-align: center;
-    margin-top: 101px;
+    padding-top: 101px;
     margin-bottom: 121px;
-    font-family: Roboto-Black;
+    font-family: "roboto-black";
     font-size: 48px;
     color: #515151;
 }
@@ -108,14 +106,14 @@
 
 .product-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 96px;
     }
-
-.prod-link:hover.buttons{
+.prod-link:hover .buttons{
     display: flex;
-    /* background-color: aqua;
-    color: #1abc9c; */
-    }
+    background-color: rgba(45, 45, 45, 0.5);
+        }
 .prod-img{
     width: 255px;
     height: 322px;
@@ -124,159 +122,101 @@
     position: relative;
     }
 .buttons{
-    width: 240px;
-    background-color: rgba(85, 82, 82, 255);
-
-}
-  
-.prod-link:hover .price{
-    display: block;
-    background-color: aqua;
-    color: #1abc9c;
- }  
-
-.prod-item{
-    width: 255px;
-    height: 322px;
-    list-style-type: none;
-}
-
-.prod-paragraf{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.name{
-    background-color: #323232;
-    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 18pt;
-    text-transform: uppercase;
-    text-align: 3px;
-    text-decoration-color: white;
-    width: 201px;
-    height: 40px;
-    color: white;
-}
-.price{
-    background-color: #8c8c8c;
-    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 18pt;
-    text-transform: uppercase;
-    text-align: center;
-    width: 54px;
-    height: 40px;
-    color: white;
-}
-
-.title{
-    font-family: OpenSans-Semibold, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 18pt;
-    color: rgba(85, 82, 82, 255);
-    }
- .title::after{
-    content: "";
-    display: block;
-    height: 3px;
-    width: 136px;
-    background-color: #4ec6ab;
-    margin-top: 11px;
-    margin-bottom: 29px;
-   }
-/* 
-.news-paragraf{
-    font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 14pt;
-    padding-top: 43px;
-}
-.more, ::content{
-    width: 159px;
-    height: 51px;
-    text-align: center;
-    border-radius: 5px;
-    color: white;
-    background-color: #4ec6ab;
-    font-family: OpenSans-Light, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 16pt;
-    margin-top: 16px;
-    margin-bottom: 60px;
-}
-
-.product-list{
-    width: 1110px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;    
-}
-.poduct-item{
-    width: 255px;
-}
-.prod-link:hover .buttons{
-    display: flex;
-}
-.poduct-img{
-    width: 255px;
-    height: 360px
-    }
-
-.wrapper{
-    position: relative;
-}
-.buttons{
-    width: 230px;
-    /* height: 245px; */
-    /* background-color: rgb(8, 252, 252, 0.5);
+    width: 166px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 140px 20px 30px 20px;
+    padding: 88px 40px 85px 40px;
     display: none;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.add, .icon{
+.basket, .icon{
     display: block;
-    border: 1px solid #fff;
+    border: 1px solid white;
     background-color: transparent;
 }
 .icon{
     border: 1px solid white;
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     background-repeat: no-repeat;
     background-position: center;
 }
 .icon:hover{
-    background-color: #24642d;
-    border: 1px solid #24642d;
+    background-color: #1abc9c;
+    border: 1px solid white;
 }
-.like{
+.heart{
     background-image: url(../img/heart.png);
 }
-.shuffle{
+.arrows{
     background-image: url(../img/arrows.png);
-    }
-.clock{
+}
+.cloack{
     background-image: url(../img/cloack.png);
 }
 .add{
     margin-top: 7px;
     width: 100%;
     text-transform: uppercase;
-    background-color: rgb(236, 165, 165, 0.7);
-    }
+    background-color: #323232;
+}
 .basket{
     display: flex;
-    margin-right: 10px;
     align-items: center;
-    color: rgb(37, 30, 30);
+    color: white;
 }
-
 .basket::before{
     content: "";
-    background-image: url("../img/basket.png");
+    background-image: url(../img/basket.png);
     width: 28px;
-    height: 27px;
+    height: 28px;
     display: block;
-    margin: 11px 20px 11px 11px;
-} */
+    margin: 12px 12px 12px 12px;
+}
+.prod-paragraf{
+    display: flex;
+    justify-content: space-between;
+       
+}
+.name{
+    background-color: #323232;
+    font-family: "Roboto-Black";
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration-color: white;
+    width: 201px;
+    height: 40px;
+    color: white;
+    }
+.price{
+    background-color: #8c8c8c;
+    font-family: "Roboto-Black";
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    width: 54px;
+    height: 40px;
+    color: white;
+    }
+.name:hover{
+    background-color: #1abc9c;
+}
+.price:hover{
+    background-color: #7fd9c7;
+}
+.info{
+    background-color: #323232;
+    font-family: "Open-Sans";
+    font-size: 16px;
+    padding: 38px 0 33px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.infos:hover{
+    color: #46bfa9;
+}
