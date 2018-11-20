@@ -1,0 +1,18 @@
+
+
+.Mart, .Menu{
+    display: inline-block;
+    margin: 0 auto;
+}
+.Mart{
+    margin-left: 20px;
+    font-family:#;
+    font-size: 30pt;
+    text-transform: uppercase;
+    float: left;
+}
+.Menu{
+    font-family:#;
+    font-size: 14pt;
+    float: right;
+}

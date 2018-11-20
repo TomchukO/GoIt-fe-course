@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i|Roboto:400,400i,900,900i&amp;subset=cyrillic" rel="stylesheet"); 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800&subset=cyrillic');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding-top: 38px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+    width: 1125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.Menu{
+    font-family: Open Sans-Bold, Adobe Invis Font, Myriad Pro-Regular;
+    font-size: 14pt;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+}
+.menu-link{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Open Sans-Bold, Adobe Invis Font, Myriad Pro-Regular;
+    color: black;
+    text-transform: uppercase;
+}
+.menu-link:hover{
+    color:#1abc9c;
+    border-bottom: 1px solid #1abc9c;
+}
+.paris{
+    background-image: url(../img/slide4.png);
+    display: flex;
+    /* position: relative; */
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    z-index: -100;
+}
+.left-but{
+    /* background-color: #1abc9c; */
+    width: 104px;
+    height: 104px;
+    background-image: url("../img/left.png"), linear-gradient( #1abc9c, #1abc9c);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 224px 0 272px 0;
+}
+.left-but:hover{
+    background-image: url("../img/left.png"), linear-gradient(#4f9c8a, #4f9c8a);
+}
+.paris-d{
+    display: block;
+    padding: 219px 85px 284px 80px;
+    /* width: ; */
+   }
+.right-but{
+    /* background-color: #1abc9c; */
+    width: 104px;
+    height: 104px;
+    background-image: url("../img/right.png"), linear-gradient(#1abc9c,#1abc9c);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 229px 0 272px 0;
+}
+.right-but:hover{
+    background-image: url("../img/right.png"), linear-gradient(#4f9c8a,#4f9c8a);
+    /* background-color: #4f9c8a; */
+}
+.paris-h{
+    font-family: roboto light;
+    font-size: 60px;
+    font-weight: 800;
+}
+.paris-p{
+    font-family: roboto light;
+    font-size: 34px;
+}
+.main{
+    width: 1125px;
+    background-color: #e9f0fd;
+    margin: 0 auto;
+}
+.products-title{
+    text-align: center;
+    margin-top: 101px;
+    margin-bottom: 121px;
+    font-family: Roboto-Black;
+    font-size: 48px;
+    color: #515151;
+}
+.products-title:after{
+    content: "";
+    display: block;
+    background-color: #1abc9c;
+    width: 164px;
+    height: 7px;
+    margin: 0 auto;
+    margin-top: 32px;
+    }
+
+.product-list{
+    display: flex;
+    justify-content: space-between;
+    }
+
+.prod-link:hover.buttons{
+    display: flex;
+    /* background-color: aqua;
+    color: #1abc9c; */
+    }
+.prod-img{
+    width: 255px;
+    height: 322px;
+}
+.wrapper{
+    position: relative;
+    }
+.buttons{
+    width: 240px;
+    background-color: rgba(85, 82, 82, 255);
+
+}
+  
+.prod-link:hover .price{
+    display: block;
+    background-color: aqua;
+    color: #1abc9c;
+ }  
+
+.prod-item{
+    width: 255px;
+    height: 322px;
+    list-style-type: none;
+}
+
+.prod-paragraf{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.name{
+    background-color: #323232;
+    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 18pt;
+    text-transform: uppercase;
+    text-align: 3px;
+    text-decoration-color: white;
+    width: 201px;
+    height: 40px;
+    color: white;
+}
+.price{
+    background-color: #8c8c8c;
+    font-family: Roboto-Black, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 18pt;
+    text-transform: uppercase;
+    text-align: center;
+    width: 54px;
+    height: 40px;
+    color: white;
+}
+
+.title{
+    font-family: OpenSans-Semibold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 18pt;
+    color: rgba(85, 82, 82, 255);
+    }
+ .title::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 136px;
+    background-color: #4ec6ab;
+    margin-top: 11px;
+    margin-bottom: 29px;
+   }
+/* 
+.news-paragraf{
+    font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    padding-top: 43px;
+}
+.more, ::content{
+    width: 159px;
+    height: 51px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: #4ec6ab;
+    font-family: OpenSans-Light, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 16pt;
+    margin-top: 16px;
+    margin-bottom: 60px;
+}
+
+.product-list{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    
+}
+.poduct-item{
+    width: 255px;
+}
+.prod-link:hover .buttons{
+    display: flex;
+}
+.poduct-img{
+    width: 255px;
+    height: 360px
+    }
+
+.wrapper{
+    position: relative;
+}
+.buttons{
+    width: 230px;
+    /* height: 245px; */
+    /* background-color: rgb(8, 252, 252, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 140px 20px 30px 20px;
+    display: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.add, .icon{
+    display: block;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.icon{
+    border: 1px solid white;
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon:hover{
+    background-color: #24642d;
+    border: 1px solid #24642d;
+}
+.like{
+    background-image: url(../img/heart.png);
+}
+.shuffle{
+    background-image: url(../img/arrows.png);
+    }
+.clock{
+    background-image: url(../img/cloack.png);
+}
+.add{
+    margin-top: 7px;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: rgb(236, 165, 165, 0.7);
+    }
+.basket{
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    color: rgb(37, 30, 30);
+}
+
+.basket::before{
+    content: "";
+    background-image: url("../img/basket.png");
+    width: 28px;
+    height: 27px;
+    display: block;
+    margin: 11px 20px 11px 11px;
+} */
