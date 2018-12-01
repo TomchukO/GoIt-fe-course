@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "WisdomScriptAJ";
+        src: url("../fonts/WisdomScriptAJ/WisdomScriptAJ.woff");
+        font-weight: 400;
+        font-style: normal;
+}
+@font-face {
+    font-family: "WisdomScriptAJ";
+        src: url("../fonts/montserrat-v12-latin_cyrillic/montserrat-v12-latin_cyrillic-700.woff");
+        font-weight: 700;
+        font-style: italic;
+}
+@font-face {
+    font-family: "RobotoSlab-Bold";
+        src: url("../fonts/roboto-slab/RobotoSlab-Bold.ttf");
+        font-weight: 800;
+}
+@font-face {
+    font-family: "droid-serif";
+        src: url("../fonts/droid-serif/DroidSerif-Italic.ttf");
+        font-weight: 400;
+}
+*{
+    margin: 0 auto;
+    padding: 0rem;
+}
+.servic{
+    width: 90rem;
+    display: block;
+    margin: 2.75rem 14.375rem 7.8125rem 14.8125rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 2.75rem;
+    align-items: baseline;
+}
+.logo{
+    font-family: "WisdomScriptAJ";
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: #fed136;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 23.375rem;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-size: 1.125rem; 
+    color: #222222;
+}
+.menu-item{
+    display: block;
+    margin: 0 2.5rem 0 2.5rem;
+}
+.menu-item:hover{
+    color: #fed136;
+}
+.main{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.services{
+    margin: 7.9375rem 0 1.1875rem 0;
+    font-family: "RobotoSlab-Bold";
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: rgba(34, 34, 34, 255);
+}
+.text{
+    font-family: "droid-serif";
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(119, 119, 119, 255);
+    margin: 0 0 6rem 0;
+}
+.bloc{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 120px;
+}
+.bloc-info{
+    display: block;
+    text-align: center;
+}
+.icon1, .icon2, .icon3{
+    display: block;
+    align-content: center;
+    width: 4.25rem;
+    height: 4.25rem;
+    border: 0.0625rem solid #fed136;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon1{
+    background-image: url(../img/Icon-Basket@1X.png);
+}
+.icon2{
+    background-image: url(../img/Icon-Laptop@1X.png);
+}
+.icon3{
+    background-image: url(../img/Icon-Locked@1X.png);
+}
+.bloc-name{
+    font-family: "RobotoSlab-Bold";
+    font-weight: 800;
+    font-size: 1.125rem;
+    color: rgba(34, 34, 34, 255);
+    margin: 1.25rem 0;
+}
+.bloc-info{
+    font-family: "RobotoSlab-Bold";
+    font-weight: 800;
+    font-size: 0.875rem;
+    color: rgba(119, 119, 119, 255);
+    width: 17.125rem;
+}
+.contact{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #222222;
+    padding-bottom: 0.0625rem;
+   }
+.services-c{
+    font-family: "RobotoSlab-Bold";
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: white;
+    width: 16.125rem;
+    padding: 6.875rem 0 1.25rem 0;
+}
+.info-c{
+    position: relative;
+}
+.text-c{
+    font-family: "droid-serif";
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(119, 119, 119, 255);
+    margin-bottom: 4.75rem;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    width: 59.0625rem;
+}
+.servic-form-block{
+    
+    width: 28.5625rem;
+}
+.input{
+    display: block;
+    /* justify-content: start; */
+    width: 27.1875rem;
+    height: 3.125rem;
+    margin-bottom: 1.8125rem;
+}
+.input, textarea{ 
+    font-family: "montserrat";
+    font-weight: 800;
+    font-size: 0.875rem;
+    color: rgba(187, 187, 187, 255);
+    border-radius: 0.625rem;
+    padding-left: 1.25rem;
+}
+.textarea{
+    display: block;
+    width: 27.1875rem;
+    height: 12.5rem;
+    padding-top: 1.125rem;
+}
+.con-img{
+    display: block;
+    background-image: url(../img/Map\ Image@1X.png);
+    width: 38.375rem;
+    height: 33.5625rem; 
+    position: absolute;
+    margin: 6.25rem 49.125rem;
+} 
+.button{
+    display: block;
+    background-color: #fed136;
+    font-family: "montserrat";
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 255);
+    width: 15rem;
+    height: 4.125rem;
+    border-radius: 0.625rem;
+    margin-bottom: 6.25rem;
+}
